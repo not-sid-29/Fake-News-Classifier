@@ -1,0 +1,37 @@
+Model Used: Bidirectional LSTM RNN
+
+Hyperparameters:  
+- Vocabulary Size = 10000
+- embedded Vector Features = 100
+- Padded Sentence length = 10000
+- Bidirectional LSTM with 100 nodes
+
+- Activation Function used: Sigmoid function
+- Optimizer: Adam
+- Loss Function: Binary Cross Entropy
+
+- Epochs selected for training = 25
+
+## PERFORMANCE METRICS:
+
+1. Confusion Matrix:
+	
+[[3305,  335],
+ [ 317, 3323]]
+
+
+2. Accuracy Score:
+
+score = 0.9104 or 91.04%
+
+
+3. Classification Report:
+
+            precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      3640
+           1       0.91      0.91      0.91      3640
+
+    accuracy                           0.91      7280
+   macro avg       0.91      0.91      0.91      7280
+weighted avg       0.91      0.91      0.91      7280
