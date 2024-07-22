@@ -6,11 +6,11 @@
 ### 1. Data Collection: <br>
 - Dataset used: [Fake News Data](https://www.kaggle.com/c/fake-news/data) <br>
 - Data cols: <br>
-> `id` - unique id for news
-> `title` - title for the news
-> `author` - author of the news article
-> `text` - contents of the article
-> `label` - a label that marks an article to be potentially unreliable {1 : unreliable, 0 : reliable}
+> `id` - unique id for news, <br>
+> `title` - title for the news, <br>
+> `author` - author of the news article, <br>
+> `text` - contents of the article, <br>
+> `label` - a label that marks an article to be potentially unreliable {1 : unreliable, 0 : reliable}<br>
 ---
 ### 2. Data Preprocessing: <br>
 - Followed standard data cleaning technique, generated a custom engineered column `content` by appending the `author`, `title` and `text` columns.
